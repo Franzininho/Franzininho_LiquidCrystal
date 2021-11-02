@@ -74,10 +74,10 @@ void Franzininho_LiquidCrystal::LCD_Iniciar (uint8_t lcd_bit4,uint8_t lcd_bit5,u
 
     delay(1);
 
-    //LCD_Comando(0x28);
-   // LCD_Comando(0x0C);
-    //LCD_Comando(0x01);
-    //LCD_Comando(0x06);
+    LCD_Comando(0x28);
+    LCD_Comando(0x0C);
+    LCD_Comando(0x01);
+    LCD_Comando(0x06);
     
 }/* fim Display_Iniciar*/
 
