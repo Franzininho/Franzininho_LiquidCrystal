@@ -8,13 +8,15 @@
   externa
  
 */
-#include "LCD_Display.h" /* Arquivo de cabeçalho para a inclusão do*/
- 
+#include "Franzininho_LiquidCrystal.h" /* Arquivo de cabeçalho para a inclusão do*/
+
+Franzininho_LiquidCrystal FranzininhoWifi ( 0,1,2,3,4,5); /* Construtor */
+
 void setup() {
-  LCD_Iniciar();
-  LCD_Comando(LCD_Clear );
-  LCD_Saida_String(1,2, "FRANZININHO");
-  LCD_Saida_String(2,5, "WIFI");
+
+  FranzininhoWifi.LCD_Comando(LCD_Clear);
+  FranzininhoWifi.LCD_Saida_String(1,2, "FRANZININHO");
+  FranzininhoWifi.LCD_Saida_String(2,5, "WIFI");
   delay (1000);
 }
 
