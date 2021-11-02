@@ -1,2 +1,10 @@
-# bibliotecas-software
-Repositórios de bibliotecas para periféricos diversos
+# Bilioteca Display LCD
+
+
+
+---
+**NOTE**
+
+Em breve haverá atualizações de informações de como utilizar
+
+---
