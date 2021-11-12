@@ -1,0 +1,22 @@
+
+#######################################
+# Syntax Coloring Map For LiquidCrystal
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Franzininho_LiquidCrystal	KEYWORD1	Franzininho_LiquidCrystal
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+LCD_Iniciar	KEYWORD2
+LCD_Comando	KEYWORD2
+LCD_Saida_String	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
