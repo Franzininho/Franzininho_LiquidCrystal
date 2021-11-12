@@ -10,7 +10,7 @@
 */
 #include "Franzininho_LiquidCrystal.h" /* Arquivo de cabeçalho para a inclusão do*/
 
-Franzininho_LiquidCrystal FranzininhoWifi (3,2,1,0,4,5); /* Construtor */
+Franzininho_LiquidCrystal FranzininhoWifi (0,1,2,3,5,4); /* Construtor ->  ( db4 , db5 , db6 , db7 , rs , en ) */
 
 void setup() {
   FranzininhoWifi.LCD_Iniciar();
