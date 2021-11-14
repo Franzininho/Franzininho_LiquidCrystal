@@ -1,6 +1,6 @@
 /*
  Arquivo que contém as funções implementadas para realizar a escritas de dados
- entre o micArocontrolador e o Display LCD 16x2
+ entre o microcontrolador e o Display LCD 16x2
 
 */
 #include "Franzininho_LiquidCrystal.h" 
